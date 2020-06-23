@@ -31,7 +31,7 @@ header {
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -151,17 +151,14 @@ header {
 /*------------------------------------------------*/
 /*-----------------MAIN--------------------------*/
 /*-----------------------------------------------*/
-.life {
+section {
     height: 100vh;
     position: relative;
     top: 0;
     left: 0;
-    background-color: rgb(26, 172, 73, 1);
-    background: linear-gradient(to bottom, rgba(26, 172, 73, 1) 0%, rgba(26, 172, 73, 1) 100%), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
-    background-blend-mode: darken;
 }
 
-.life h1 {
+section h1 {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -174,16 +171,23 @@ header {
     border-bottom-right-radius: 0.7rem;
 }
 
-.life h1::after {
+section h1::after {
     content: '';
     position: absolute;
     right: 50%;
     bottom: -0.9rem;
+    transform: translateX(50%);
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 50%;
 }
 
+.life {
+    background-color: rgba(26, 172, 73, 1);
+    background: url('https://media.gettyimages.com/photos/jamaican-reggae-musician-bob-marley-leads-his-band-the-wailers-during-picture-id924962392?s=2048x2048'), linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 100%);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
 
 .life h1 {
     color: #ffcc01;
@@ -209,6 +213,7 @@ header {
     font-size: 1rem;
     color: #ffffff;
     text-align: center;
+    filter: blur();
 }
 
 .life-img {
@@ -233,7 +238,89 @@ header {
     position: relative;
     top: 0;
     left: 0;
+    margin-top: 1rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     color: #ffcc01;
+}
+
+.music {
+    background-color: rgb(255, 211, 52, 1);
+    background: url('https://media.gettyimages.com/photos/photo-of-bob-marley-bob-marley-performing-live-on-stage-at-the-picture-id84912887?s=2048x2048'), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.music h1 {
+    color: #23b73b;
+    border-bottom: 0.4rem solid #ffcc01;
+}
+
+.music h1::after {
+    background-color: #ffcc01;
+}
+
+.music-albums {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.music-albums .album-container {
+    position: relative;
+    padding: .4rem;
+}
+
+.music-albums .album-art {
+    max-width: 15rem;
+    height: auto;
+    width: 100%;
+    margin-top: 8px;
+    align-items: center;
+    opacity: 1;
+    display: block;
+    transition: .5s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.album-container .album-cover {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.album-container:hover .album-art {
+    opacity: 0.4;
+}
+
+.album-container:hover .album-cover {
+    opacity: 1;
+}
+
+.album-cover .album-name {
+    color: #23b73b;
+    font-family: 'Piedra', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.music-style {
+    position: relative;
+    top: 75%;
+    right: 0;
+    padding: 0 10rem;
+}
+
+.music-style .music-detail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
 }
