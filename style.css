@@ -31,7 +31,7 @@ header {
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -44,8 +44,9 @@ header {
     box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
-    z-index: 999999;
+    z-index: 99;
 }
+
 
 .nav-logo {
     display: flex;
@@ -145,4 +146,94 @@ header {
     font-size: 2rem;
     font-weight: 400;
     transform: rotate(-90deg);
+}
+
+/*------------------------------------------------*/
+/*-----------------MAIN--------------------------*/
+/*-----------------------------------------------*/
+.life {
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(26, 172, 73, 1);
+    background: linear-gradient(to bottom, rgba(26, 172, 73, 1) 0%, rgba(26, 172, 73, 1) 100%), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background-blend-mode: darken;
+}
+
+.life h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 4rem;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 900;
+    cursor: default;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.7rem;
+}
+
+.life h1::after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: -0.9rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+
+.life h1 {
+    color: #ffcc01;
+    border-bottom: 0.4rem solid #f42b26;
+}
+
+.life h1::after {
+    background-color: #f42b26;
+}
+
+.life-info {
+    position: relative;
+    top: 30%;
+    left: 0;
+}
+
+.life-info p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.life-img {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.life-img img {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 22.5%;
+    width: 100%;
+    height: auto;
+    max-width: 10rem;
+    max-height: 15rem;
+}
+
+.life-img figcaption {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #ffcc01;
 }
