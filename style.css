@@ -185,6 +185,9 @@ section h1::after {
 .life {
     background-color: rgba(26, 172, 73, 1);
     background: url('https://media.gettyimages.com/photos/jamaican-reggae-musician-bob-marley-leads-his-band-the-wailers-during-picture-id924962392?s=2048x2048'), linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-blend-mode: darken;
     background-attachment: fixed;
 }
@@ -245,8 +248,11 @@ section h1::after {
 }
 
 .music {
-    background-color: rgb(255, 211, 52, 1);
+    background-color: rgba(255, 43, 40, 1);
     background: url('https://media.gettyimages.com/photos/photo-of-bob-marley-bob-marley-performing-live-on-stage-at-the-picture-id84912887?s=2048x2048'), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-blend-mode: darken;
     background-attachment: fixed;
 }
@@ -321,6 +327,69 @@ section h1::after {
 .music-style .music-detail {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.awards {
+    background-color: rgba(255, 211, 52, 1);
+    background: url('https://media.istockphoto.com/photos/walk-of-fame-hollywood-star-bob-marley-picture-id458999409'), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.awards h1 {
+    color: #ffffff;
+    border-bottom: 0.4rem solid #23b73b;
+}
+
+.awards h1::after {
+    background-color: #23b73b;
+}
+
+.awards-container {
+    position: relative;
+    top: 30%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.awards-container .awards-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 0.8rem;
+}
+
+.awards-card ion-icon {
+    background: linear-gradient(90deg, rgba(35,183,59,1) 0%, rgba(255,204,1,1) 48%, rgba(244,43,38,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8rem;
+}
+
+.awards-card:nth-child(1) ion-icon {
+    color: #ffcc01;
+}
+.awards-card:nth-child(2) ion-icon {
+    color: #f42b26;
+}
+.awards-card:nth-child(3) ion-icon {
+    color: #23b73b;
+}
+
+.awards-card .awards-card-year {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
     color: #ffffff;
     text-align: center;
 }

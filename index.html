@@ -12,12 +12,12 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-logo">
-                <img src="https://cdn.pixabay.com/photo/2013/07/13/10/06/bob-marley-156544_960_720.png">
+                <a href="#"><img src="https://cdn.pixabay.com/photo/2013/07/13/10/06/bob-marley-156544_960_720.png"></a>
             </div>
             <ul class="nav-list">
                 <li><a href="#tribute-info">Life</a></li>
-                <li><a href="#music-info">Music</a></li>
-                <li><a href="#awards-info">Awards</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#awards">Awards</a></li>
             </ul>
         </nav>
         <div class="after-nav">Reggae King</div>
@@ -40,25 +40,25 @@
             </div>
         </section>
 
-        <section class="music">
-            <h1 class="music-heading" id="music">Music</h1>
+        <section class="music" id="music">
+            <h1 class="music-heading">Music</h1>
             <div class="music-albums">
                 <div class="album-container">
                     <img src="https://www.bobmarley.com/wp-content/uploads/2013/10/TheWailingWailers-400x400.jpg" alt="album-art" class="album-art">
                     <div class="album-cover">
-                        <a href="#" class="album-name">The Wailing Wailers</a>
+                        <a href="https://www.bobmarley.com/release/the-wailing-wailers/" class="album-name">The Wailing Wailers</a>
                     </div>
                 </div>
                 <div class="album-container">
                     <img src="https://www.bobmarley.com/wp-content/uploads/2017/04/Exodus40LP_SuperDeluxe-400x400.png" alt="album-art" class="album-art">
                     <div class="album-cover">
-                      <a href="#" class="album-name">Exodus</a>
+                      <a href="https://www.bobmarley.com/release/exodus/" class="album-name">Exodus</a>
                     </div>
                 </div>
                 <div class="album-container">
                     <img src="https://www.bobmarley.com/wp-content/uploads/2013/10/bob-marley-legend-the-best-of-delantera-400x400.jpg" alt="album-art" class="album-art">
                     <div class="album-cover">
-                        <a href="#" class="album-name">Legend</a>
+                        <a href="https://www.bobmarley.com/release/legend/" class="album-name">Legend</a>
                     </div>
                 </div>
             </div>
@@ -66,9 +66,31 @@
                 <p class="music-detail">Bob Marley released its debut studio album The Wailing Wailers in 1965, which contained the single "One Love/People Get Ready"; the song was popular worldwide. During his time in London he recorded the album Exodus (1977); it incorporated elements of blues, soul, and British rock, enjoyed widespread commercial and critical success. The greatest hits album Legend was released in 1984, and became the best-selling reggae album of all time. Rolling Stone ranked him No. 11 on its list of the 100 Greatest Artists of All Time.</p>
             </div>
         </section>
+
+        <section class="awards" id="awards">
+            <h1 class="awards-heading">Awards</h1>
+            <div class="awards-container">
+                <div class="awards-card">
+                    <ion-icon name="trophy"></ion-icon>
+                    <h3 class="awards-card-year">1976</h3>
+                    <p class="awards-card-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos incidunt id minima ipsa omnis debitis quisquam magnam fugit voluptas quia corporis repudiandae placeat eius culpa, itaque, dolores consequatur temporibus quod.</p>
+                </div>
+                <div class="awards-card">
+                    <ion-icon name="heart"></ion-icon>
+                    <h3 class="awards-card-year">1978</h3>
+                    <p class="awards-card-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil totam veritatis magni nostrum repudiandae provident itaque earum asperiores iusto officiis commodi ea, quaerat tempora saepe cum illum nisi voluptatem iste.</p>
+                </div>
+                <div class="awards-card">
+                    <ion-icon name="star"></ion-icon>
+                    <h3 class="awards-card-year">2001</h3>
+                    <p class="awards-card-detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, neque dolorem! Atque magnam, rem corporis fugit repellendus, facilis temporibus facere architecto delectus neque nihil vel impedit dolores aliquid saepe obcaecati.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- FreeCodeCamp CDN -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.0/dist/ionicons.js"></script>
 </body>
 </html>
