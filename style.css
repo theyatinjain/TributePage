@@ -32,7 +32,7 @@ html {
 header {
     position: relative;
     background-color: #ffcc01;
-    background: url('https://wallpapercave.com/wp/l0t1qmc.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background: url('hero-min.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0,0,0, 0.9) 100%);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -196,9 +196,9 @@ section h1::after {
 
 .life {
     background-color: rgba(26, 172, 73, 1);
-    background: url('https://media.gettyimages.com/photos/jamaican-reggae-musician-bob-marley-leads-his-band-the-wailers-during-picture-id924962392?s=2048x2048'), linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 100%);
+    background: url('life-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 100%);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     background-attachment: fixed;
@@ -258,9 +258,9 @@ section h1::after {
 
 .music {
     background-color: rgba(255, 43, 40, 1);
-    background: url('https://media.gettyimages.com/photos/photo-of-bob-marley-bob-marley-performing-live-on-stage-at-the-picture-id84912887?s=2048x2048'), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background: url('music-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     background-attachment: fixed;
@@ -344,7 +344,7 @@ section h1::after {
 
 .awards {
     background-color: rgba(255, 211, 52, 1);
-    background: url('https://media.istockphoto.com/photos/walk-of-fame-hollywood-star-bob-marley-picture-id458999409'), linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%);
+    background: url('awards-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
