@@ -1,5 +1,5 @@
 # TributePage
-Tribute Page made under FreeCodeCamp certification
+Tribute Page made under FreeCodeCamp Respinsive web design certification
 
 #
 Live at https://theyatinjain.github.io/TributePage/
