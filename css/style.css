@@ -201,7 +201,7 @@ section h1::after {
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-attachment: fixed;
+    background-attachment: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,7 +262,7 @@ section h1::after {
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .music h1 {
@@ -348,7 +348,7 @@ section h1::after {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .awards h1 {
