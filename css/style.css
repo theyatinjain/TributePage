@@ -32,7 +32,7 @@ html {
 header {
     position: relative;
     background-color: #ffcc01;
-    background: url('hero-min.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background: url('../images/hero-min.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0,0,0, 0.9) 100%);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -196,7 +196,7 @@ section h1::after {
 
 .life {
     background-color: rgba(26, 172, 73, 1);
-    background: url('life-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 100%);
+    background: url('../images/life-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,1) 100%);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -258,7 +258,7 @@ section h1::after {
 
 .music {
     background-color: rgba(255, 43, 40, 1);
-    background: url('music-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
+    background: url('../images/music-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0, 0.9) 100%);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ section h1::after {
 
 .awards {
     background-color: rgba(255, 211, 52, 1);
-    background: url('awards-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%);
+    background: url('../images/awards-min.jpg'), linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
