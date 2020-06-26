@@ -22,6 +22,10 @@
         font-size: 1.8rem;
     }
 
+    .life-info {
+        bottom: 5%;
+    }
+
     .life-info p {
         padding: 0 5rem;
     }
@@ -69,4 +73,9 @@
     .footer .footer-webd ion-icon {
         font-size: 1.2rem;
     }
+}
+
+
+@media screen and (max-width: 768px) {
+    * {font-size: 10px;}
 }
