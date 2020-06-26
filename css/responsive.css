@@ -176,4 +176,9 @@
     .awards .awards-card {
         margin: 1rem;
     }
+
+    .footer .footer-heading {
+        font-size: 6.3rem;
+        letter-spacing: -0.6rem;
+    }
 }
