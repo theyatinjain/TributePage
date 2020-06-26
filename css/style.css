@@ -147,9 +147,9 @@ header {
     right: -12rem;
 }
 
-.header-foot {
+.header .header-foot {
     position: absolute;
-    bottom: 6rem;
+    bottom: 12%;
     left: -4rem;
     color: #23b73b;
     font-family: 'Cinzel Decorative', cursive;
