@@ -37,7 +37,7 @@
 
     .title-box .quote-sign {
         bottom: -3rem;
-        right: -10rem;
+        right: -8.5rem;
         font-size: 1.8rem;
     }
 }
@@ -102,5 +102,44 @@
 }
 
 @media screen and (max-width: 320px) {
-    
+    html {
+        font-size: 9px;
+    }
+
+    .title-box .title-quote {
+        font-size: 1.5rem;
+    }
+
+    .title-box .quote-sign {
+        font-size: 1.4rem;
+    }
+
+    .awards {
+        height: 120vh;
+    }
+
+    .awards-container {
+        top: 20%;
+        transform: none;
+    }
+
+    .awards-card {
+        max-width: 10rem;
+    }
+
+    .footer .footer-heading {
+        font-size: 6rem;
+    }
+
+    .footer .footer-para {
+        font-size: 1.2rem;
+    }
+
+    .footer .footer-para a {
+        font-size: 1.4rem;
+    }
+
+    .footer .footer-webd {
+        font-size: 1.4rem;
+    }
 }
