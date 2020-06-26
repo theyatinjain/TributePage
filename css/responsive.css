@@ -147,3 +147,33 @@
         font-size: 1.4rem;
     }
 }
+
+@media (max-width: 600px) and (max-height: 600px) {
+    .header-foot {
+        bottom: 15%;
+    }
+
+    .life-img {
+        top: 22.5%;
+    }
+
+    .life-info {
+        bottom: 4%;
+    }
+
+    .music-albums {
+        top: 20%;
+    }
+
+    .music-albums .album-art {
+        max-width: 11.5rem;
+    }
+
+    .music-style {
+        bottom: 4%;
+    }
+
+    .awards .awards-card {
+        margin: 1rem;
+    }
+}
