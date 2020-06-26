@@ -1,7 +1,26 @@
 @media screen and (max-width:1024px) {
 
+    html {
+        font-size: 12px;
+    }
+
+    .footer .footer-heading {
+        font-size: 9rem;
+    }
+
+    .footer .footer-para {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 11px;
+    }
+
     .title-box .title-quote {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
 
     .title-box .title-quote::before {
@@ -21,25 +40,44 @@
         right: -10rem;
         font-size: 1.8rem;
     }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    .title-box .title-quote {
+        font-size: 1.8rem;
+    }
 
     .life-info {
-        bottom: 5%;
+        bottom: 10%;
     }
 
     .life-info p {
-        padding: 0 5rem;
+        padding: 0 4rem;
+    }
+
+    .music-albums {
+        top: 25%;
     }
 
     .music-albums .album-art {
-        max-width: 12.5rem;
+        max-width: 13.5rem;
     }
 
     .music-style {
-        padding: 0 6rem;
+        padding: 0 4rem;
+    }
+
+    .awards-container {
+        flex-wrap: wrap;
     }
 
     .awards .awards-card {
         margin: 1.5rem;
+        max-width: 14rem;
     }
 
     .awards .awards-card-year {
@@ -59,23 +97,10 @@
     }
 
     .footer .footer-para {
-        font-size: 1.8rem;
-    }
-
-    .footer .footer-para a {
-        font-size: 2rem;
-    }
-
-    .footer .footer-webd {
-        font-size: 1.2rem;
-    }
-
-    .footer .footer-webd ion-icon {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 }
 
-
-@media screen and (max-width: 768px) {
-    * {font-size: 10px;}
+@media screen and (max-width: 320px) {
+    
 }
